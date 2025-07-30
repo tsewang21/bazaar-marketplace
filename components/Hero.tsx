@@ -26,15 +26,7 @@ export default function Hero() {
               traditional foods, and cultural treasures. Every purchase helps preserve heritage and empower communities.
             </p>
             
-            <div className="flex flex-col sm:flex-row gap-4 mb-12">
-              <Link href="/stores" className="btn-primary text-lg px-8 py-3 flex items-center justify-center">
-                Explore Marketplace
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Link>
-              <Link href="/#business" className="btn-secondary text-lg px-8 py-3">
-                List Your Business
-              </Link>
-            </div>
+
             
             {/* Stats */}
             <div className="grid grid-cols-3 gap-8">
@@ -89,15 +81,17 @@ export default function Hero() {
             
             <div className="absolute -bottom-4 -right-4 bg-white rounded-lg shadow-lg p-4 transform rotate-3">
               <div className="flex items-center space-x-3">
-                <div className="w-8 h-8 bg-himalayan-blue rounded-full flex items-center justify-center text-white text-sm font-bold">
-                  D
+                <div className="w-8 h-8 bg-blue-600 rounded-full flex items-center justify-center text-white text-sm font-bold">
+                  M
                 </div>
                 <div>
-                  <div className="font-semibold text-sm">Dolma's Kitchen</div>
-                  <div className="text-xs text-gray-500">Traditional Foods</div>
+                  <div className="font-semibold text-sm">Mandala Tibetan Store</div>
+                  <div className="text-xs text-gray-500">Handicrafts</div>
                 </div>
               </div>
             </div>
+            
+
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Search, Menu, X, ShoppingBag, User, Heart, LogOut } from 'lucide-react'
+import { Search, Menu, X, ShoppingBag, User, LogOut } from 'lucide-react'
 import Link from 'next/link'
 import { useAuth } from '@/contexts/AuthContext'
 import SearchBar from '@/components/SearchBar'
@@ -27,14 +27,8 @@ export default function Header() {
             <Link href="/stores" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
               Browse Stores
             </Link>
-            <Link href="/stores" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-              Categories
-            </Link>
             <Link href="/#about" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
               About
-            </Link>
-            <Link href="/#business" className="text-gray-700 hover:text-primary-600 font-medium transition-colors">
-              For Businesses
             </Link>
           </nav>
 
@@ -45,12 +39,6 @@ export default function Header() {
 
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center space-x-4">
-            <button className="text-gray-700 hover:text-primary-600 transition-colors">
-              <Heart className="h-6 w-6" />
-            </button>
-            <button className="text-gray-700 hover:text-primary-600 transition-colors">
-              <ShoppingBag className="h-6 w-6" />
-            </button>
             
             {user ? (
               <div className="relative">
@@ -143,22 +131,10 @@ export default function Header() {
             <Link href="/stores" className="block px-3 py-2 text-gray-700 hover:text-primary-600 font-medium">
               Browse Stores
             </Link>
-            <Link href="/stores" className="block px-3 py-2 text-gray-700 hover:text-primary-600 font-medium">
-              Categories
-            </Link>
             <Link href="/#about" className="block px-3 py-2 text-gray-700 hover:text-primary-600 font-medium">
               About
             </Link>
-            <Link href="/#business" className="block px-3 py-2 text-gray-700 hover:text-primary-600 font-medium">
-              For Businesses
-            </Link>
             <div className="flex items-center space-x-4 px-3 py-2">
-              <button className="text-gray-700 hover:text-primary-600 transition-colors">
-                <Heart className="h-6 w-6" />
-              </button>
-              <button className="text-gray-700 hover:text-primary-600 transition-colors">
-                <ShoppingBag className="h-6 w-6" />
-              </button>
               <button className="text-gray-700 hover:text-primary-600 transition-colors">
                 <User className="h-6 w-6" />
               </button>

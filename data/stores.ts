@@ -31,6 +31,66 @@ export interface Product {
 
 export const stores: Store[] = [
   {
+    id: "mandala-tibetan-store",
+    name: "Mandala Tibetan Store",
+    description: "Authentic Tibetan gift shop in Brooklyn selling jewelry, incense, and traditional clothing with excellent customer reviews.",
+    longDescription: "Located in the heart of Brooklyn, Mandala Tibetan Store has been serving the New York Tibetan community and local customers since 2010. Our family-owned shop specializes in authentic Tibetan jewelry, traditional incense, and beautiful clothing. With a 4.8-star rating from 56 Google reviews, we're proud to offer genuine items that connect people to Tibetan culture and spirituality.",
+    location: "Brooklyn, NY", 
+    country: "USA",
+    rating: 4.8,
+    reviewCount: 56,
+    image: "🪬",
+    category: "Handicrafts",
+    specialties: ["Tibetan Jewelry", "Traditional Incense", "Tibetan Clothing", "Spiritual Items"],
+    phone: "(718) 789-0071",
+    email: "info@mandalatibetanstore.com",
+    website: "https://www.mandalatibetanstore.com",
+    established: 2010,
+    featured: true,
+    products: [
+      {
+        id: "mandala-silver-pendant",
+        name: "Traditional Tibetan Silver Mandala Pendant",
+        price: 45,
+        currency: "USD",
+        description: "Handcrafted silver pendant featuring intricate mandala design",
+        image: "🪬",
+        inStock: true,
+        category: "Jewelry"
+      },
+      {
+        id: "tibetan-prayer-beads",
+        name: "108 Bead Tibetan Prayer Mala",
+        price: 28,
+        currency: "USD",
+        description: "Traditional 108-bead prayer mala made with authentic materials",
+        image: "📿",
+        inStock: true,
+        category: "Spiritual"
+      },
+      {
+        id: "himalayan-incense-set",
+        name: "Authentic Himalayan Incense Collection",
+        price: 22,
+        currency: "USD",
+        description: "Set of traditional Tibetan incense sticks with various fragrances",
+        image: "🪔",
+        inStock: true,
+        category: "Incense"
+      },
+      {
+        id: "tibetan-singing-bowl-small",
+        name: "Hand-Forged Singing Bowl",
+        price: 65,
+        currency: "USD",
+        description: "Traditional hand-forged singing bowl with striker and cushion",
+        image: "🥣",
+        inStock: true,
+        category: "Spiritual"
+      }
+    ]
+  },
+  {
     id: "tibet-spirit-store",
     name: "Tibet Spirit Store",
     description: "Unique handmade items run by Tibetans. We specialize in handmade Tibet Singing Bowls and have close to 1000 singing bowls of every size and tone.",
@@ -775,66 +835,6 @@ export const stores: Store[] = [
         image: "🧣",
         inStock: true,
         category: "Clothing"
-      }
-    ]
-  },
-  {
-    id: "mandala-tibetan-store",
-    name: "Mandala Tibetan Store",
-    description: "Authentic Tibetan gift shop in Brooklyn selling jewelry, incense, and traditional clothing with excellent customer reviews.",
-    longDescription: "Located in the heart of Brooklyn, Mandala Tibetan Store has been serving the New York Tibetan community and local customers since 2010. Our family-owned shop specializes in authentic Tibetan jewelry, traditional incense, and beautiful clothing. With a 4.8-star rating from 56 Google reviews, we're proud to offer genuine items that connect people to Tibetan culture and spirituality.",
-    location: "Brooklyn, NY", 
-    country: "USA",
-    rating: 4.8,
-    reviewCount: 56,
-    image: "🪬",
-    category: "Handicrafts",
-    specialties: ["Tibetan Jewelry", "Traditional Incense", "Tibetan Clothing", "Spiritual Items"],
-    phone: "(718) 789-0071",
-    email: "info@mandalatibetanstore.com",
-    website: "https://www.mandalatibetanstore.com",
-    established: 2010,
-    featured: true,
-    products: [
-      {
-        id: "mandala-silver-pendant",
-        name: "Traditional Tibetan Silver Mandala Pendant",
-        price: 45,
-        currency: "USD",
-        description: "Handcrafted silver pendant featuring intricate mandala design",
-        image: "🪬",
-        inStock: true,
-        category: "Jewelry"
-      },
-      {
-        id: "tibetan-prayer-beads",
-        name: "108 Bead Tibetan Prayer Mala",
-        price: 28,
-        currency: "USD",
-        description: "Traditional 108-bead prayer mala made with authentic materials",
-        image: "📿",
-        inStock: true,
-        category: "Spiritual"
-      },
-      {
-        id: "himalayan-incense-set",
-        name: "Authentic Himalayan Incense Collection",
-        price: 22,
-        currency: "USD",
-        description: "Set of traditional Tibetan incense sticks with various fragrances",
-        image: "🪔",
-        inStock: true,
-        category: "Incense"
-      },
-      {
-        id: "tibetan-singing-bowl-small",
-        name: "Hand-Forged Singing Bowl",
-        price: 65,
-        currency: "USD",
-        description: "Traditional hand-forged singing bowl with striker and cushion",
-        image: "🥣",
-        inStock: true,
-        category: "Spiritual"
       }
     ]
   },

@@ -6,9 +6,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Brand Section */}
-          <div className="col-span-2 lg:col-span-1">
+          <div>
             <div className="gradient-bg text-white px-3 py-2 rounded-lg font-display font-bold text-xl mb-6 inline-block">
               བཟར། Bazaar
             </div>
@@ -16,42 +16,12 @@ export default function Footer() {
               Empowering Tibetan and Himalayan communities by connecting traditional businesses 
               with global customers. Every purchase preserves culture and creates opportunities.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-primary-600 rounded-full flex items-center justify-center transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-primary-600 rounded-full flex items-center justify-center transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-primary-600 rounded-full flex items-center justify-center transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-            </div>
+
           </div>
 
-          {/* Quick Links */}
-          <div>
-            <h3 className="font-display font-semibold text-lg mb-6">Quick Links</h3>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Browse Stores</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Categories</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Featured Products</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">New Arrivals</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">About Us</a></li>
-            </ul>
-          </div>
 
-          {/* For Businesses */}
-          <div>
-            <h3 className="font-display font-semibold text-lg mb-6">For Businesses</h3>
-            <ul className="space-y-3">
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">List Your Store</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Seller Resources</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Success Stories</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Marketing Tools</a></li>
-              <li><a href="#" className="text-gray-300 hover:text-primary-400 transition-colors">Support Center</a></li>
-            </ul>
-          </div>
+
+
 
           {/* Contact Info */}
           <div>
